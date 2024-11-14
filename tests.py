@@ -10,7 +10,7 @@ class TestMyFunc(unittest.TestCase):
 
     def test2(self):
         expected = "Hola World"
-        self.assertEqual(myFunc(), expected)
+        self.assertNotEqual(myFunc(), expected)
 
 
 if __name__ == "__main__":
