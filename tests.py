@@ -8,6 +8,10 @@ class TestMyFunc(unittest.TestCase):
         expected = "Hello World"
         self.assertEqual(myFunc(), expected)
 
+    def test2(self):
+        expected = "Hola Mundo"
+        self.assertEqual(myFunc(), expected)
+
 
 if __name__ == "__main__":
     unittest.main()
