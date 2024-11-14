@@ -1,5 +1,5 @@
 
-def myfunc():
+def myFunc():
     return "Hello World!"
 
 
